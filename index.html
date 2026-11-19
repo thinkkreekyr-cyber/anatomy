@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3D Human Anatomy &amp; Physiology Study Guide</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='7' r='4' fill='%2368d0ff'/><path d='M9 13h14l-2 9h-3l-1 8h-2l-1-8h-3z' fill='%2368d0ff'/></svg>" />
+  <script type="module" crossorigin src="./assets/index-BEMsnYfG.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Bf8z0VhG.css">
+</head>
+<body>
+  <div id="app">
+    <header id="topbar">
+      <div class="brand"><span class="logo">◎</span><span>Anatomy Atlas</span></div>
+      <nav id="tabs" aria-label="Views"></nav>
+      <div class="top-right">
+        <div id="search-wrap">
+          <input id="search" type="search" placeholder="Search structures…  ( / )" autocomplete="off" spellcheck="false" aria-label="Search anatomical structures" />
+          <ul id="search-results" role="listbox"></ul>
+        </div>
+        <button id="break-btn" class="break-btn" title="Take a Break — dance!">☕ <span>Take a Break</span></button>
+        <button id="settings-btn" class="icon-btn" title="Controls &amp; settings" aria-label="Settings">⚙</button>
+        <div id="settings" class="popover hidden"></div>
+      </div>
+    </header>
+    <main id="main">
+      <aside id="sidebar"><div id="sidebar-inner"></div></aside>
+      <button id="sidebar-toggle" title="Collapse sidebar" aria-label="Toggle sidebar">‹</button>
+      <section id="viewport">
+        <div id="placeholder" class="hidden"></div>
+        <div id="restore" class="pill hidden"></div>
+        <div id="caption" class="hidden"></div>
+        <div id="hint">Drag to orbit · two-finger drag to pan · pinch or wheel to zoom · click a structure</div>
+        <div id="loader"><div class="ld-title">Loading 3D anatomy…</div><div class="ld-bar"><i></i></div><div class="ld-sub">2,391 structures · BodyParts3D</div></div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
